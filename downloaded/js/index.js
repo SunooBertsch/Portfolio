@@ -46,3 +46,19 @@ function portfolioClick() {
   $(workItem).find(".work-intro").toggleClass("clickWorkIntro");
   $(workItem).find(".work-intro").toggleClass("removeOpacity", "addOrRemove");
 }
+
+function sendMail() {
+  $.ajax({
+    url: "php/mail_handler.php",
+    datatype: "json",
+    method: "post",
+    data: {
+      email: $(".email").text(),
+      name: $(".name").text(),
+      body: $(".message").text()
+    },
+    success: function() {
+      console.log("Email sent!");
+    }
+  });
+}

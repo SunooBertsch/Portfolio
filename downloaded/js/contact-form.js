@@ -7,7 +7,7 @@ $(document).ready(function() {
     var user_name = $("input[name=name]").val();
     var user_email = $("input[name=email]").val();
     var user_message = $("textarea[name=message]").val();
-    var url = "./mail_handler.php"; // the script where you handle the form input.
+    var url = "php/mail_handler.php"; // the script where you handle the form input.
 
     //simple validation at client's end
     //we simply change border color to red if empty field using .css()
