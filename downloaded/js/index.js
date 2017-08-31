@@ -7,8 +7,7 @@ function init() {
   $(".mfp-image").click(portfolioClick);
 }
 function email() {
-  var e = "sunoo";
-  e += ".dev";
+  var e = "sunoobertsch";
   e += "@";
   e += "gmail.com";
   $(".email").text(e);
