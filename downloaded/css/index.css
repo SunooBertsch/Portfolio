@@ -67,14 +67,14 @@ body {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   background: #e41919;
-  opacity: .1;
+  opacity: 0.1;
 }
 .clickColor {
   color: #000;
   /*color: #fff;*/
 }
 .clickWorkImg {
-  background: rgba(250, 250, 250, .9);
+  background: rgba(250, 250, 250, 0.9);
 }
 .clickWorkIntro {
   color: #fff;
@@ -116,9 +116,7 @@ body {
 .page-section {
   padding-bottom: 120px;
 }
-.aboutSunoo {
-  float: left;
-}
+
 .active {
   color: inherit;
 }
@@ -203,4 +201,7 @@ body {
   .hs-line-1 {
     letter-spacing: 10px;
   }
+}
+.aboutSunoo {
+  float: left;
 }
